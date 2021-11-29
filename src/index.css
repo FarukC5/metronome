@@ -1,0 +1,61 @@
+body {
+  padding: 10px;
+  margin: 10px;
+}
+
+.Metro {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.Metro-header {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  width: 500px;
+  height: 250px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.Metro-header p {
+  font-size: 45px;
+  margin: 20px;
+}
+
+span {
+  font-weight: normal;
+  font-size: 22px;
+}
+
+button {
+  background-color: #0075ff;
+  width: 70%;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 40px;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+button:active {
+  background-color: #005aca;
+  border: 1px solid lightgrey;
+  box-shadow: 0 0 0 0;
+}
+
+.range {
+  cursor: pointer;
+  width: 70%;
+  opacity: 1;
+  margin-bottom: 20px;
+}
